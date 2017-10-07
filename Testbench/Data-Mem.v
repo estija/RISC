@@ -30,8 +30,8 @@ add=32'd2;
 wen=1;
 end
 always begin
-#10 clk=~clk;
-#10 wen=~wen;
+#5 clk=~clk;
+wen=~wen;
 data_in=data_in+1;
 add=add+1;
 end
