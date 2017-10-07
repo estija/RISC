@@ -22,7 +22,7 @@ module dm_test;
 reg[31:0]data_in,add;
 reg clk,wen;
 wire[31:0]data_out;
-data_mem uut(add,data_in,clk,wen,data_out);
+dm uut(add,data_in,clk,wen,data_out);
 initial begin
 clk=0;
 data_in=32'd12;
