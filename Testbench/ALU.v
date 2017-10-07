@@ -30,7 +30,7 @@ b=32'h000A4322;
 funct=4'b0000;
 end
 always begin
-#20 funct=funct+1;
-#20 a=a+1;
+#5 funct=funct+1;
+#5 a=a+1;
 end
 endmodule
