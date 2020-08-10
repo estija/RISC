@@ -1,2 +1,2 @@
-# MIPS
-Verilog implementation of the 32-bit RISC processor.
+# RISC
+Verilog implementation of a 32-bit RISC processor.
